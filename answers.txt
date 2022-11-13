@@ -1,0 +1,19 @@
+Answers for HW1:
+1.Propably it could take some hours to read each article and marking and
+ counting all the occurances of each politician. However today we have smart
+ tools like google chrome and explorer which count and mark each desired word in a webpage.
+
+2.BASH is considerably efficien tool for searching and navigating. In we 
+ would have needed a lot of loops for targeting links format and idetifying
+ each politician name. Our code would have been too long, messy and probably
+ run longer than our actual BASH code. BASH wildcards and grep are among the  tool which simplify our code and make it concise and faster.
+ We can use excersize's idea in many fields like: Identifying abusive/
+ terrorist activization is social networks by counting incriminative words.
+ In Machine Learning for example , we can help the machine to get knowledge
+ about classification of texts by counting prominent words.
+
+3.We would have needed to update our list of links each hour. We could store  our links from earlier in a binary tree like we've learned in data 
+ structures course. Then for each link, before counting operation, we would 
+ make a search for this link in the BST and if it exits there we'll
+ skip to the next link. Otherwise, it would be inserted to the BST and we
+ would make the counting operation.
